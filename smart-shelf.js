@@ -1,6 +1,8 @@
 /* Add gateway token */
-var token;
+var token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdJZCI6NjY4MjMwNzE2LCJnYXRld2F5SWQiOjQ2NTkzOTMyMiwiaXNHYXRld2F5IjpmYWxzZSwiZmlsdGVyU2NhbiI6ZmFsc2UsImlhdCI6MTUyMDU1NTA0OCwiZXhwIjoxNTI3NzU1MDQ4fQ.M_FD9fonKVU0vrW35OiHKLh0-HC-_XOZ8EnLeCFOqIg";
 
+
+/*
 // Picking up token from arguments or environment variable
 if (!process.env.token) {
     // print process.argv
@@ -16,6 +18,8 @@ if (!process.env.token) {
 } else {
     token = process.env.token;
 }
+
+*/
 
 /* Web Bluetooth initialization */
 var wbp = require('blueapp-wb').init({
